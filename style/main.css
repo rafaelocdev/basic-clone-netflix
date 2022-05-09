@@ -19,6 +19,7 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
 }
 
 header .logo {
@@ -41,7 +42,8 @@ main .main__film {
     url('/img/capa-house.jpg');
   background-size: cover;
 
-  height: 400px;
+  height: fit-content;
+  min-height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -68,6 +70,7 @@ main .main__film {
   font-size: 12px;
   cursor: pointer;
   transition: 0.4s ease all;
+  width: fit-content;
 }
 
 .button:hover {
@@ -77,4 +80,22 @@ main .main__film {
 
 .fa-solid {
   margin-right: 7px;
+}
+
+.container {
+  padding: 0 30px;
+}
+
+.main__film .container {
+  width: 70%;
+}
+
+.box-film {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.corroussel-films {
+  margin-top: 10px;
 }

@@ -1,0 +1,17 @@
+@media (max-width: 700px) {
+  header .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .button {
+    width: 202px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .main__film__description {
+    width: 45vw;
+  }
+}
